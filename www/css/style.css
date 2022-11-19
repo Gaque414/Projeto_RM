@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-image: url("/img/fundo_mobile.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header{
+    width: 100%;
+    background-image: linear-gradient(45deg, rgb(91, 14, 179), rgb(0, 252, 55));
+    text-align: center;
+}
+
+img{
+    width: 60vw;
+    padding: 10%;
+    padding-left: 12%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50%;
+}
+
+.card{
+    width: 80vw;
+    height: auto;
+    display: inline-block;
+    background-color: #31394d;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 20%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#logo{
+    width: 50vw;
+    padding: 2%;
+}
